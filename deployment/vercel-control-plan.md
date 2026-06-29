@@ -68,9 +68,10 @@ Expected later:
 
 ```text
 RESEND_API_KEY
-RESEND_AUDIENCE_ID
+RESEND_FROM_EMAIL
 RESEND_WEBHOOK_SECRET
 NEXT_PUBLIC_SITE_URL
+CAMPAIGN_API_KEY
 ```
 
 If a database is added:
@@ -112,4 +113,3 @@ Lovable can remain temporary.
 Vercel becomes the controlled campaign surface.
 Product apps stay separate.
 ```
-
