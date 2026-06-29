@@ -15,6 +15,7 @@ It owns public acquisition across:
 Campaign repo owns public acquisition.
 Product repos own product fulfillment.
 Hub owns member implementation.
+Vercel serves campaign pages.
 Resend delivers email.
 Dashboard measures movement.
 ```
@@ -56,6 +57,7 @@ Dashboard measures movement.
 - `operations/` - command center, access model, dashboard, content machine, call system, and execution boards.
 - `strategy/` - ecosystem architecture.
 - `integrations/` - how Contractor Circle Hub, AOS, and OverWatch/IOR connect by events and links.
+- `deployment/` - Vercel deployment, domain strategy, and Lovable migration control plan.
 - `products-source/` - public offer and product positioning docs copied from the planning workspace.
 
 ## Current Build Priority
@@ -67,6 +69,12 @@ Dashboard measures movement.
 5. Build the Change Order Cash Tracker Lite delivery.
 6. Connect events into the campaign dashboard.
 7. Publish landing pages and link-in-bio routing.
+
+## Deployment Position
+
+This repo is connected to Vercel and should become the controlled campaign surface for lead magnets and public acquisition pages.
+
+Lovable can remain temporary for the current main site, but it should not govern the lead magnet system, Resend automation, campaign tracking, or future public funnel infrastructure.
 
 ## Access Rule
 

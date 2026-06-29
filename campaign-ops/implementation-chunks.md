@@ -29,6 +29,8 @@ Use this current folder only as a staging copy until the campaign repo is create
 
 The campaign repo should govern lead magnets, email campaigns, drip campaigns, landing pages, public quizzes, PDF delivery, Resend automations, and public acquisition tracking across Contractor Circle Hub, AOS, OverWatch/IOR, and future products.
 
+It is also connected to Vercel, so it should govern the controlled public campaign pages instead of relying on Lovable.
+
 ## Chunk 2: Resend Foundation
 
 What Resend owns:
@@ -44,6 +46,19 @@ What Resend owns:
 - Suppression / unsubscribe.
 
 Nothing public should launch until this foundation works.
+
+## Chunk 2A: Vercel Foundation
+
+What Vercel owns:
+
+- Lead magnet pages.
+- Quiz/audit pages.
+- Thank-you pages.
+- Link-in-bio pages.
+- Form endpoints, when implemented.
+- Resend event endpoints, when implemented.
+
+Use a Vercel-controlled subdomain first. Keep the existing Lovable site live until the replacement public site is ready.
 
 ## Chunk 3: Lead Capture Data
 

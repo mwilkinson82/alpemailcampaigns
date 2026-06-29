@@ -59,6 +59,8 @@ The campaign repo owns:
 - UTM/source tracking.
 - Public previews of gated tools.
 - CTA routing into Contractor Circle Hub, AOS, and OverWatch.
+- Vercel campaign deployment structure.
+- Domain/subdomain strategy for campaign pages.
 
 The campaign repo does not own:
 
@@ -159,8 +161,24 @@ alpemailcampaigns/
     contractor-circle-hub.md
     aos.md
     overwatch-ior.md
+  deployment/
   products/
 ```
+
+## Vercel Role
+
+This repo is connected to Vercel and should become the controlled public campaign surface.
+
+Vercel should serve:
+
+- Lead magnet pages.
+- Link-in-bio pages.
+- Thank-you pages.
+- Campaign pages.
+- Public tool/PDF delivery pages.
+- Form/API endpoints when implemented.
+
+Lovable can remain temporary for the existing main site, but it should not govern this campaign system.
 
 ## Current Workspace Status
 
